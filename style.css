@@ -52,3 +52,20 @@ bi{
     position: absolute;
     bottom:2px;
 }
+/* Posts */
+.post-img{
+    width: 100%;
+    border: 2px solid lightgray;
+    height: 550px;
+}
+.post-icons{
+    display: flex;
+    justify-content: space-between;
+}
+.post-3-icons{
+    display: flex;
+    gap:10px;
+}
+.post-1-icon{
+    
+}
