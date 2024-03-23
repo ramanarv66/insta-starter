@@ -65,7 +65,60 @@ bi{
 .post-3-icons{
     display: flex;
     gap:10px;
+    margin-bottom: 2px;
 }
 .post-1-icon{
     
+}
+.small-text{
+    font-size:14px;
+    margin:0;
+}
+.likes{
+    margin:0;
+}
+.mb-5{
+    margin-bottom: 5px;
+}
+.mt-0{
+    margin-top:0px;
+}
+.mb-8{
+    margin-bottom: 8px;
+}
+.gray-font{
+    color: gray;
+}
+.mt-10{
+   margin-top: 10px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-profile{
+
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.user-img{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+.m-0{
+    margin: 0;
+}
+.user{
+    display: flex;
+    justify-content: space-between;
+}
+.border-bottom{
+    border-bottom: 1px solid lightgray;
+}
+.post-main{
+    margin-top: 10px;
+    margin-left: 10px;
 }
