@@ -9,26 +9,31 @@ body {
     position: relative;
 }
 
+.each-profile-icon-img {
+    border-radius: 50%;
+    width: 60px;
+}
+
+
+
 .menu-bar {
-    width: 15vw;
+    width: 25vw;
     border-right: 1px solid rgb(218, 210, 210);
 }
 
 .posts {
-    width: 50vw;
+    width: 76vw;
 }
 
 
 .profile-icons {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width: 992px;
+
+    width: 990px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
-    background-color: red;
-    overflow-x: scroll;
+    gap: 8px;
+    margin: 20px 150px;
+
+
 
 }
 
@@ -140,7 +145,7 @@ bi {
 
 
 .right-bar {
-    width: 35vw;
+    width: 41vw;
     margin-left: 20px;
 
 }
@@ -161,14 +166,202 @@ bi {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom:20px
+    margin-bottom: 20px
 }
 
 .blue-color {
     color: #1DA2F7;
     font-weight: 500;
 }
-.suggestions{
+
+.suggestions {
     display: flex;
     justify-content: space-between;
 }
+
+@media (min-width: 390px) and (max-width: 844px) {
+
+    .container {
+        width: 100%;
+        height: 500px;
+        display: flex;
+        position: relative;
+    }
+    
+    .each-profile-icon-img {
+        border-radius: 50%;
+        width: 60px;
+    }
+    
+    
+    
+    .menu-bar {
+        display: none;
+        width: 25vw;
+        border-right: 1px solid rgb(218, 210, 210);
+        position: fixed;
+        /* bottom: 10px; */
+
+        
+    }
+    
+    .posts {
+        width: 100%;
+    }
+    
+    
+    .profile-icons {
+    
+        width: 100%;
+        display: flex;
+        gap: 8px;
+        margin: 20px 0px;
+        overflow: scroll;
+    
+    
+    
+    }
+    
+    .each-menu {
+        display: flex;
+        gap: 10px;
+        margin-left: 12px;
+    }
+    
+    .mt-10 {
+        margin-top: 5px;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    
+    bi {
+        font-weight: bolder;
+    }
+    
+    .gap-icons {
+        position: absolute;
+        bottom: 2px;
+    }
+    
+    /* Posts */
+    .post-img {
+        width: 100%;
+        border: 2px solid lightgray;
+        height: 550px;
+    }
+    
+    .post-icons {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .post-3-icons {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 2px;
+    }
+    
+    .post-1-icon {}
+    
+    .small-text {
+        font-size: 14px;
+        margin: 0;
+    }
+    
+    .likes {
+        margin: 0;
+    }
+    
+    .mb-5 {
+        margin-bottom: 5px;
+    }
+    
+    .mt-0 {
+        margin-top: 0px;
+    }
+    
+    .mb-8 {
+        margin-bottom: 8px;
+    }
+    
+    .gray-font {
+        color: gray;
+    }
+    
+    .mt-10 {
+        margin-top: 10px;
+    }
+    
+    .flex {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .user-profile {
+    
+        display: flex;
+        gap: 8px;
+        align-items: center;
+    }
+    
+    .user-img {
+        border-radius: 50%;
+        height: 50px;
+        width: 50px;
+    }
+    
+    .m-0 {
+        margin: 0;
+    }
+    
+    .user {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .border-bottom {
+        border-bottom: 1px solid lightgray;
+    }
+    
+    .post-main {
+        margin-left: 0px !important;
+    }
+    
+    
+    .right-bar {
+        display: none;
+        width: 41vw;
+        margin-left: 20px;
+    
+    }
+    
+    .profile-info-img {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+    }
+    
+    .profile-info {
+        display: flex;
+        gap: 8px;
+        align-items: center;
+    }
+    
+    .right-bar-main {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px
+    }
+    
+    .blue-color {
+        color: #1DA2F7;
+        font-weight: 500;
+    }
+    
+    .suggestions {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+  }
