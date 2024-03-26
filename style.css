@@ -14,15 +14,17 @@ body {
     width: 60px;
 }
 
-
+.fixed-menu-bar{
+    display: none;
+}
 
 .menu-bar {
-    width: 25vw;
+    width: 35vw;
     border-right: 1px solid rgb(218, 210, 210);
 }
 
 .posts {
-    width: 76vw;
+    width: 96vw;
 }
 
 
@@ -179,7 +181,7 @@ bi {
     justify-content: space-between;
 }
 
-@media (min-width: 390px) and (max-width: 844px) {
+@media (min-width: 300px) and (max-width: 899px) {
 
     .container {
         width: 100%;
@@ -193,6 +195,20 @@ bi {
         width: 60px;
     }
     
+    .fixed-menu-bar{
+        width: 100%;
+        position: fixed;
+        bottom: 0px;
+        z-index: 1;
+        display: flex;
+        background-color: #fff;
+        border-top: 1px solid lightgray;
+        margin-top: 5px;
+        font-size: 30px;
+        justify-content: space-around
+
+        
+    }
     
     
     .menu-bar {
@@ -223,8 +239,8 @@ bi {
     }
     
     .each-menu {
-        display: flex;
-        gap: 10px;
+        /* display: flex;
+        gap: 10px; */
         margin-left: 12px;
     }
     
