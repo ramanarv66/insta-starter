@@ -3,7 +3,7 @@ body {
 }
 
 .container {
-    width: 992px;
+    width: 100%;
     height: 500px;
     display: flex;
     position: relative;
@@ -19,12 +19,12 @@ body {
 }
 
 .menu-bar {
-    width: 35vw;
+    width: 20vw;
     border-right: 1px solid rgb(218, 210, 210);
 }
 
 .posts {
-    width: 96vw;
+    width: 40vw;
 }
 
 
@@ -33,7 +33,9 @@ body {
     width: 990px;
     display: flex;
     gap: 8px;
-    margin: 20px 150px;
+    margin-top: 20px;
+    margin-bottom: 31px;
+    margin-left: 22%;
 
 
 
@@ -147,7 +149,7 @@ bi {
 
 
 .right-bar {
-    width: 41vw;
+    width: 20vw;
     margin-left: 20px;
 
 }
@@ -232,7 +234,7 @@ bi {
         display: flex;
         gap: 8px;
         margin: 20px 0px;
-        overflow: scroll;
+        overflow-x: scroll;
     
     
     
@@ -380,4 +382,7 @@ bi {
         justify-content: space-between;
     }
     
+  }
+  .center{
+    text-align: center;
   }
